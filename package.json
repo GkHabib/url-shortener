@@ -1,25 +1,27 @@
 {
-  "name": "kitchen-sink",
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "clean": "turbo run clean",
-    "dev": "turbo run dev",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "check-types": "turbo run check-types"
-  },
-  "devDependencies": {
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.3"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "packageManager": "bun@1.2.13",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+	"name": "kitchen-sink",
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"clean": "turbo run clean",
+		"dev": "turbo run dev",
+		"test": "turbo run test",
+		"check-types": "turbo run check-types",
+		"check": "biome check .",
+		"check:fix": "biome check . --write",
+		"cleanup": "rm -rf node_modules && rm -rf ./**/*/node_modules"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0-beta.3",
+		"lefthook": "1.11.12",
+		"turbo": "^2.5.3"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"packageManager": "bun@1.2.13",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	]
 }

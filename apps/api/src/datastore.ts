@@ -7,7 +7,9 @@ export interface UrlRecord {
 	createdAt: string; // ISO timestamp
 }
 
-const DATA_PATH = path.resolve(__dirname, "../data/urls.json");
+const DATA_PATH = path.resolve(
+	process.env.DATA_PATH || path.resolve(__dirname, "../data/urls.json"),
+);
 
 async function ensureDataFile() {
 	try {

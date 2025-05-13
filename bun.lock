@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "kitchen-sink",
+      "name": "url-shortener",
       "devDependencies": {
         "@biomejs/biome": "2.0.0-beta.3",
         "@tailwindcss/postcss": "^4.1.6",

@@ -38,6 +38,7 @@
 		"api",
 		"storefront",
 		"blog",
-		"ui"
+		"ui",
+		"web"
 	]
 }

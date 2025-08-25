@@ -13,14 +13,14 @@
 	"dependencies": {
 		"@repo/logger": "*",
 		"@repo/ui": "*",
-		"next": "15.4.6",
+		"next": "15.5.0",
 		"react": "19.1.1",
 		"react-dom": "19.1.1"
 	},
 	"devDependencies": {
 		"@repo/typescript-config": "*",
 		"@types/node": "22.17.2",
-		"@types/react": "19.1.10",
+		"@types/react": "19.1.11",
 		"@types/react-dom": "19.1.7",
 		"typescript": "5.9.2"
 	}

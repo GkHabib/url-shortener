@@ -15,7 +15,7 @@
 		"@tailwindcss/postcss": "4.1.7",
 		"autoprefixer": "10.4.21",
 		"lefthook": "1.11.13",
-		"postcss": "8.5.3",
+		"postcss": "8.5.10",
 		"tailwindcss": "4.1.7",
 		"turbo": "2.5.3"
 	},

@@ -38,8 +38,9 @@ export default function MainForm() {
 			const updated = [shortUrl, ...recentLinks].slice(0, 5);
 			setRecentLinks(updated);
 			localStorage.setItem("recentShortUrls", JSON.stringify(updated));
-		} catch (err: any) {
-			setError(err.message);
+		} catch (err: unknown) {
+			const error = err as Error;
+			setError(error.message);
 		} finally {
 			setLoading(false);
 		}

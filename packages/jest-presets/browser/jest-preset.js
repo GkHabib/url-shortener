@@ -14,4 +14,4 @@ const config = {
 	preset: "ts-jest",
 };
 
-export default config;
+module.exports = config;

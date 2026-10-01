@@ -11,13 +11,13 @@
 		"cleanup": "rm -rf node_modules && rm -rf ./**/*/node_modules"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.14",
+		"@biomejs/biome": "2.5.15",
 		"@tailwindcss/postcss": "4.3.3",
 		"autoprefixer": "10.6.1",
 		"lefthook": "1.13.6",
 		"postcss": "8.5.28",
 		"tailwindcss": "4.3.3",
-		"turbo": "2.11.5"
+		"turbo": "2.11.6"
 	},
 	"engines": {
 		"node": ">=18"

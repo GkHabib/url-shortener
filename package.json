@@ -11,11 +11,11 @@
 		"cleanup": "rm -rf node_modules && rm -rf ./**/*/node_modules"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.15",
+		"@biomejs/biome": "2.6.4",
 		"@tailwindcss/postcss": "4.3.3",
-		"autoprefixer": "10.6.1",
+		"autoprefixer": "10.6.2",
 		"lefthook": "1.13.6",
-		"postcss": "8.5.31",
+		"postcss": "8.5.32",
 		"tailwindcss": "4.3.3",
 		"turbo": "2.11.10"
 	},
